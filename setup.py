@@ -18,18 +18,14 @@ install_requires = \
      'tqdm',
      'xarray']
 
-entry_points = \
-    {'console_scripts': ['sem = sem:cli']}
 
 setup_kwargs = {
     'name': 'scraper',
     'version': '0.1.0',
-    'description': 'A simulation execution manager for ns-3',
-    'author': 'Davide Magrin',
-    'author_email': 'magrinda@dei.unipd.it',
+    'description': 'Web scraper',
+    'author': 'Akshit',
     'maintainer': None,
     'maintainer_email': None,
-    'url': 'https://github.com/signetlabdei/sem',
     'packages': packages,
     'package_data': package_data,
     'install_requires': install_requires,
